@@ -2,6 +2,6 @@ javac src/*.java -d bin
 
 cd bin
 
-jar cfm ../versions/EvoSim.jar ../data/compiler/manifest.txt *.class textures
+jar cfm ../versions/EvoSim.jar ../data/compiler/manifest.txt code ../data/textures
 
-start "" java -jar ../versions/EvoSim.jar
+java -jar ../versions/EvoSim.jar
